@@ -20,7 +20,7 @@ public class question4 {
 
         int max;
 
-        // Using a switch statement to determine the maximum number
+        
         switch (num1 > num2 ? 1 : (num1 < num2 ? 2 : 0)) {
             case 1:
                 max = num1;
