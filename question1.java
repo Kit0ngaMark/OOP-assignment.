@@ -32,13 +32,13 @@ public class question1 {
 
         
         System.out.println("\nStudent Name: " + fullName);
-        System.out.println("------------------------------");
+        System.out.println(" ");
 
         for (int i = 0; i < 5; i++) {
             System.out.println("Subject: " + subjects[i]);
             System.out.println("Marks: " + marks[i]);
             System.out.println("Grade: " + calculateGrade(marks[i]));
-            System.out.println("------------------------------");
+            System.out.println(" ");
         }
 
         scanner.close();
